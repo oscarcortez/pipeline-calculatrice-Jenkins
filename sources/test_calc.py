@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
         """
         L'addition entre 2 et 6 doit donner 8.
         """
-        self.assertEqual(calc.add("2","6"),8)    
+        self.assertEqual(calc.add("2","6"), 8)    
 
     def test_add_str(self):
         """
