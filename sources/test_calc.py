@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
         """
         La soustraction de 144 par 12 doit retourner 132.
         """
-        self.assertEqual(calc.sous("144","12"),132)
+        self.assertEqual(calc.sous("144","12"), 132)
 
     def test_sous_str(self):
         """
