@@ -3,7 +3,7 @@ import calc
 
 class Test(unittest.TestCase):
     """
-    Tests pour les fonctions de calc oscar
+    Tests pour les fonctions de calc os
     """
 
     def test_add(self):
