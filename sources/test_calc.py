@@ -34,6 +34,7 @@ class Test(unittest.TestCase):
         """
         La soustraction de 31 par - ne doit rien retourner.
         """
+        
         self.assertIsNone(calc.sous("31","-"))
 
     def test_sous_float(self):        
